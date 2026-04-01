@@ -1,0 +1,4 @@
+regime,stream_id,run_seed,notes
+real,A1,3777576837658288813,trained real regime
+synthetic,B1,SEED_B1,trained synthetic regime
+noref,C1,SEED_C1,no-ref regime
