@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and repository."
+title: "DNA-Local PRNG for Entropy"
+type: software
+authors:
+  - family-names: "Kaya"
+    given-names: "Alev"
+    orcid: "https://orcid.org/0000-0002-3544-5267"
+    affiliation: "Department of Software Engineering, Technology Faculty, Firat University, Elazig, Türkiye"
+  - family-names: "Türkoğlu"
+    given-names: "İbrahim"
+    orcid: "https://orcid.org/0000-0003-4938-4167"
+    affiliation: "Department of Software Engineering, Technology Faculty, Firat University, Elazig, Türkiye"
+abstract: "Code and reproducibility materials for the Entropy manuscript on a DNA-local dual-head Transformer-based pseudo-random generation framework."
+repository-code: "https://github.com/alevkaya-byte/dna-local-prng-entropy"
+url: "https://github.com/alevkaya-byte/dna-local-prng-entropy"
+license: "MIT"
+keywords:
+  - DNA-local PRNG
+  - dual-head Transformer
+  - pseudo-random generation
+  - reproducibility
+  - Entropy manuscript
+version: "v0.1"
+date-released: "2026-04-01"
