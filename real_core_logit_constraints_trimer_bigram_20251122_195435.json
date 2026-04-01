@@ -1,0 +1,47 @@
+{
+  "mode": "scenario_real_core_logit_constraints+trimer_bigram",
+  "trained_now": true,
+  "run_seed": 2659341318112875182,
+  "val_bits_per_base": 2.0010351238126214,
+  "bits_len": 1000000,
+  "rule_counts": {
+    "0": 62595,
+    "1": 62513,
+    "2": 62941,
+    "3": 62431,
+    "4": 62200,
+    "5": 63018,
+    "6": 62071,
+    "7": 62231
+  },
+  "top_rule": 5,
+  "top_rule_name": "R5: A=10 C=00 G=11 T=01",
+  "top_rule_mapping": {
+    "A": "10",
+    "C": "00",
+    "G": "11",
+    "T": "01"
+  },
+  "sampling": {
+    "mode": "scattered",
+    "scatter_chunk_len": 1000,
+    "scatter_num_chunks": 25
+  },
+  "smoothing": {
+    "enable_trimer": true,
+    "trimer_alpha": 0.26,
+    "trimer_clamp": 0.4,
+    "trimer_warmup": 1280,
+    "enable_bigram": true,
+    "bigram_alpha": 0.06,
+    "bigram_clamp": 0.25,
+    "bigram_warmup": 512
+  },
+  "perf": {
+    "t_core_ms": 1836879.546,
+    "cpu_s": 10987.781249999998,
+    "ram_mb": 20.84375,
+    "eff_char_per_ms": 0.27220075539999505,
+    "n_char": 500000
+  }
+}
